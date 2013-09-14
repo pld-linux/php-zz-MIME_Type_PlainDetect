@@ -1,5 +1,6 @@
 %define		status		alpha
 %define		pearname	MIME_Type_PlainDetect
+%define		php_min_version 5.0.0
 %include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Detect the MIME type of source code files
 Name:		php-zz-MIME_Type_PlainDetect
@@ -15,6 +16,7 @@ BuildRequires:	php-packagexml2cl
 BuildRequires:	php-pear-PEAR >= 1:1.9.0
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.610
+Requires:	php(core) >= %{php_min_version}
 Requires:	php-channel(zustellzentrum.cweiske.de)
 Requires:	php-pear
 Requires:	php-pear-MIME_Type >= 1.3.1
