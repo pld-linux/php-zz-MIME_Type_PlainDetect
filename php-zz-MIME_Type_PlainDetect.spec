@@ -1,7 +1,6 @@
 %define		status		alpha
 %define		pearname	MIME_Type_PlainDetect
 %define		php_min_version 5.0.0
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Detect the MIME type of source code files
 Name:		php-zz-MIME_Type_PlainDetect
 Version:	0.0.2
